@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
-@RequestMapping("/api/countries")
+@CrossOrigin(origins = "https://book-library--frontend.herokuapp.com")
+@RequestMapping("/countries")
 public class CountryRestController {
 
     private final CountryService countryService;
